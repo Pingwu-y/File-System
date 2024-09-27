@@ -2,6 +2,7 @@
 
 ## Overview
 This project is a basic file system with disk storage and multi-user support implemented in C. It was developed as part of the **CS2303: Project Workshop of Operating Systems** course at **Shanghai Jiao Tong University**. The system includes a server-side disk management module and a client-side interface, enabling users to perform common file operations over a network using socket communication.
+
 <img width="402" alt="image" src="https://github.com/user-attachments/assets/ebe715dc-f6d3-4233-83b1-495c1be20504">
 
 

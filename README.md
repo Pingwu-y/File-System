@@ -43,12 +43,14 @@ The following commands are implemented in the file system:
 
 ## How to Run
 1. **Compile the code**:
-   ```bash
-   gcc -o server BDS.c
-   gcc -o client BDC.c
-   gcc -o file_system_server FileSystemServer.c
-   gcc -o file_system_client FileSystemClient.c
-2. **Start the disk server:**
+
+```bash
+gcc -o server BDS.c
+gcc -o client BDC.c
+gcc -o file_system_server FileSystemServer.c
+gcc -o file_system_client FileSystemClient.c
+```
+3. **Start the disk server:**
 ```bash
 ./server disk_file cylinders sectors_per_cylinder track_to_track_delay port_number
 ```
